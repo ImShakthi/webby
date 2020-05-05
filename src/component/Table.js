@@ -1,8 +1,7 @@
 import React from "react";
 import Row from "./Row";
 
-export default class Table extends React.Component {
-
+class Table extends React.Component {
     render() {
 
         let rows = [];
@@ -24,3 +23,5 @@ export default class Table extends React.Component {
         );
     }
 }
+
+export default Table;

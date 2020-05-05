@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Row extends React.Component {
+class Row extends React.Component {
     render() {
         return (
             <>
@@ -13,3 +13,5 @@ export default class Row extends React.Component {
         );
     }
 }
+
+export default Row;
